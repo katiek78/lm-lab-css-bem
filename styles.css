@@ -20,13 +20,14 @@ body {
 .container {
     display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 /* card structure */
 .card {    
     border-radius: 7px;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -45,22 +46,41 @@ body {
     color: #ffff00;
 }
 
+.card__subheader--dark {
+    color: #ffff00;
+}
+
 .card__text--dark {
     color: #ffff00;
 }
 
 .card--light {
-    background-color: #b8e4f1; 
-    box-shadow: 3px 6px 3px #46b1cf;    
-    border:2px solid #46b1cf;
+    background-color: #EEE;      
+    border:2px solid #191970;
 }
 
 .card__header--light {
     color: #191970;
 }
 
+.card__subheader--light {
+    color: #191970;
+}
+
 .card__text--light {
     color: #191970;   
+}
+
+.card__shadow--green {  
+    box-shadow: 0px 0px 20px 10px lime;
+}
+
+.card__shadow--red {
+    box-shadow: 0px 0px 20px 10px red;   
+}
+
+.card__shadow--purple {
+    box-shadow: 0px 0px 20px 10px purple;   
 }
 
 /* button structure */
