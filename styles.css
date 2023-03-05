@@ -9,10 +9,6 @@ body {
     height:100%;
 }
 
-.sw-img {
-    max-width: 100px;
-}
-
 .main-heading {
     color: yellow;
     text-align: center;    
@@ -34,19 +30,37 @@ body {
     text-align: center;
 }
 
+.card__img {
+    max-width: 100px;
+}
+
 /* card skins */
 .card--dark {
-    background-color: black;   
-    color: #ffff00;
+    background-color: black;      
     box-shadow: 3px 6px 3px yellow;
     border:2px solid yellow;
 }
 
+.card__header--dark {
+    color: #ffff00;
+}
+
+.card__text--dark {
+    color: #ffff00;
+}
+
 .card--light {
-    background-color: #b8e4f1;
-    color: #191970;    
+    background-color: #b8e4f1; 
     box-shadow: 3px 6px 3px #46b1cf;    
     border:2px solid #46b1cf;
+}
+
+.card__header--light {
+    color: #191970;
+}
+
+.card__text--light {
+    color: #191970;   
 }
 
 /* button structure */
