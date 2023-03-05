@@ -13,9 +13,25 @@ body {
     color: yellow;
     text-align: center;    
     transform-origin: 50% 100%;
-    transform:perspective(175px) rotateX(35deg);
+    transform:perspective(175px) rotateX(35deg);   
+}
+
+.main-heading__size {
     font-size:3rem;
 }
+
+.main-subheading {
+    color: yellow;
+    text-align: center;    
+    transform-origin: 50% 100%;
+    transform:perspective(175px) rotateX(35deg);
+    font-size:2rem;
+}
+
+.main-subheading__display {
+    display:none;
+}
+
 
 .container {
     display:flex;
@@ -98,4 +114,16 @@ body {
 
 .button--light {
     background-color: #191970;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-subheading__display {
+        display:block;
+    }   
+}
+
+@media only screen and (min-width: 1000px) {
+    .main-heading__size {
+        font-size:4rem;
+    }
 }
