@@ -1,10 +1,15 @@
+html {
+    min-height:100%;
+}
+
 body {
-    background-image: linear-gradient(to bottom right, black, midnightblue);
-    font-family: 'Changa', monospace;
+    background-image: linear-gradient(to bottom right, black, midnightblue);  
+    font-family: 'Changa', monospace;    
+    height:100%;
 }
 
 .sw-img {
-    max-width: 200px;
+    max-width: 100px;
 }
 
 .main-heading {
@@ -13,6 +18,10 @@ body {
     transform-origin: 50% 100%;
     transform:perspective(175px) rotateX(35deg);
     font-size:3rem;
+}
+
+.container {
+    display:flex;
 }
 
 /* card structure */
