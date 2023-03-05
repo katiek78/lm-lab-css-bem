@@ -20,12 +20,12 @@ img {
     box-shadow: 5px 10px 5px rgb(84, 84, 82);
 }
 
-.dark {
+.card--dark {
     background-color: black;
     color: #ffff00;
 }
 
-.light {
+.card--light {
     background-color: #ffe4c4;
     color: #191970;
 }
