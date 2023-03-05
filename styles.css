@@ -1,8 +1,9 @@
 body {
     background-image: linear-gradient(to bottom right, black, midnightblue);
+    font-family: 'Changa', monospace;
 }
 
-img {
+.sw-img {
     max-width: 200px;
 }
 
@@ -14,21 +15,23 @@ img {
     font-size:3rem;
 }
 
-.card {
-    border:2px solid #191970;
+.card {    
     border-radius: 7px;
     margin: 20px auto;    
     width: 60%;
-    text-align: center;
-    box-shadow: 5px 10px 5px rgb(84, 84, 82);
+    text-align: center;   
 }
 
 .card--dark {
-    background-color: black;
+    background-color: black;   
     color: #ffff00;
+    box-shadow: 3px 6px 3px yellow;
+    border:2px solid yellow;
 }
 
 .card--light {
-    background-color: #ffe4c4;
-    color: #191970;
+    background-color: #b8e4f1;
+    color: #191970;    
+    box-shadow: 3px 6px 3px #46b1cf;    
+    border:2px solid #46b1cf;
 }
