@@ -1,12 +1,22 @@
-/* You can delete / re-write this img class  */
+body {
+    background-image: linear-gradient(to bottom right, black, midnightblue);
+}
 
 img {
     max-width: 200px;
 }
 
+.main-heading {
+    
+}
+
 .card {
     border:2px solid #191970;
     border-radius: 7px;
+    margin: 20px auto;    
+    width: 60%;
+    text-align: center;
+    box-shadow: 5px 10px 5px rgb(84, 84, 82);
 }
 
 .dark {
