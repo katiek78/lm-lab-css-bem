@@ -4,4 +4,9 @@ img {
     max-width: 200px;
 }
 
+.card {
+    border:2px solid midnightblue;
+    border-radius: 7px;
+}
+
 /* Happy coding! */
