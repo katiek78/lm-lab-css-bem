@@ -37,64 +37,65 @@ body {
     flex-wrap: wrap;
 }
 
-/* card structure */
 .card {    
+    // card structure
     border-radius: 7px;
     padding: 10px;
     margin: 20px;
     text-align: center;
-}
 
-.card__img {
-    max-width: 100px;
-}
+    &__img {
+        max-width: 100px;
+    }
 
-/* card skins */
-.card--dark {
-    background-color: black;      
-    box-shadow: 3px 6px 3px #ffff00;
-    border:2px solid #ffff00;
-}
+    // card skins
+    &--dark {
+        background-color: black;      
+        box-shadow: 3px 6px 3px #ffff00;
+        border:2px solid #ffff00;
+    }
 
-.card__header--dark {
-    color: #ffff00;
-}
+    &__header--dark {
+        color: #ffff00;
+    }
 
-.card__subheader--dark {
-    color: #ffff00;
-}
+    &__subheader--dark {
+        color: #ffff00;
+    }
 
-.card__text--dark {
-    color: #ffff00;
-}
+    &__text--dark {
+        color: #ffff00;
+    }
+    
+    &--light {
+        background-color: #EEE;      
+        border:2px solid #191970;
+    }
 
-.card--light {
-    background-color: #EEE;      
-    border:2px solid #191970;
-}
+    &__header--light {
+        color: #191970;
+    }
 
-.card__header--light {
-    color: #191970;
-}
+    &__subheader--light {
+        color: #191970;
+    }
 
-.card__subheader--light {
-    color: #191970;
-}
+    &__text--light {
+        color: #191970;   
+    }
 
-.card__text--light {
-    color: #191970;   
-}
+    &__shadow--green {  
+        box-shadow: 
+        0px 0px 20px 10px lime;
+    }
 
-.card__shadow--green {  
-    box-shadow: 0px 0px 20px 10px lime;
-}
+    &__shadow--red {
+        box-shadow: 0px 0px 20px 10px red;   
+    }
 
-.card__shadow--red {
-    box-shadow: 0px 0px 20px 10px red;   
-}
-
-.card__shadow--purple {
-    box-shadow: 0px 0px 20px 10px purple;   
+    &__shadow--purple {
+        box-shadow: 0px 0px 20px 10px purple;   
+    }
 }
 
 /* button structure */
