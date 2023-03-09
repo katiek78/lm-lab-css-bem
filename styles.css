@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom right, black, midnightblue);
+  background-image: linear-gradient(to bottom right, #000000, #191970);
   font-family: "Changa", monospace;
   font-size: 1rem;
   height: 100%;
@@ -14,6 +14,7 @@ body {
   text-align: center;
   transform-origin: 50% 100%;
   transform: perspective(175px) rotateX(35deg);
+  margin: 5px 0;
   font-size: 3rem;
 }
 
@@ -22,6 +23,7 @@ body {
   text-align: center;
   transform-origin: 50% 100%;
   transform: perspective(175px) rotateX(35deg);
+  margin: 5px 0;
   font-size: 2rem;
 }
 .main-subheading__display {
@@ -60,7 +62,7 @@ body {
   color: #ffff00;
 }
 .card--light {
-  background-color: #EEE;
+  background-color: #EEEEEE;
   border: 2px solid #191970;
 }
 .card__header--light {
@@ -84,7 +86,7 @@ body {
 
 .button {
   /* button structure */
-  color: #EEE;
+  color: #EEEEEE;
   font-size: 1rem;
   border-radius: 15px;
   padding: 10px;
@@ -103,6 +105,7 @@ body {
     text-align: center;
     transform-origin: 50% 100%;
     transform: perspective(175px) rotateX(35deg);
+    margin: 5px 0;
     font-size: 5rem;
   }
   .main-subheading {
@@ -110,6 +113,7 @@ body {
     text-align: center;
     transform-origin: 50% 100%;
     transform: perspective(175px) rotateX(35deg);
+    margin: 5px 0;
     font-size: 2.5rem;
   }
   .main-subheading__display {
@@ -122,6 +126,7 @@ body {
     text-align: center;
     transform-origin: 50% 100%;
     transform: perspective(175px) rotateX(35deg);
+    margin: 5px 0;
     font-size: 7rem;
   }
   .main-subheading {
@@ -129,6 +134,7 @@ body {
     text-align: center;
     transform-origin: 50% 100%;
     transform: perspective(175px) rotateX(35deg);
+    margin: 5px 0;
     font-size: 3rem;
   }
 }
