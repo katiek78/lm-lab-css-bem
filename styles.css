@@ -24,7 +24,6 @@ body {
   transform: perspective(175px) rotateX(35deg);
   font-size: 2rem;
 }
-
 .main-subheading__display {
   display: none;
 }
@@ -99,6 +98,20 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
+  .main-heading {
+    color: #ffff00;
+    text-align: center;
+    transform-origin: 50% 100%;
+    transform: perspective(175px) rotateX(35deg);
+    font-size: 5rem;
+  }
+  .main-subheading {
+    color: #ffff00;
+    text-align: center;
+    transform-origin: 50% 100%;
+    transform: perspective(175px) rotateX(35deg);
+    font-size: 2.5rem;
+  }
   .main-subheading__display {
     display: block;
   }
