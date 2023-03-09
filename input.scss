@@ -10,7 +10,7 @@ body {
 }
 
 @mixin StarWarsText() {
-    color: yellow;
+    color: #ffff00;
     text-align: center;    
     transform-origin: 50% 100%;
     transform:perspective(175px) rotateX(35deg);   
@@ -50,7 +50,7 @@ body {
 
     /* card skins */
     &--dark {
-        background-color: black;      
+        background-color: #000000;      
         box-shadow: 3px 6px 3px #ffff00;
         border:2px solid #ffff00;
     }
@@ -86,15 +86,15 @@ body {
 
     &__shadow--green {  
         box-shadow: 
-        0px 0px 20px 10px lime;
+        0px 0px 20px 10px #00ff00;
     }
 
     &__shadow--red {
-        box-shadow: 0px 0px 20px 10px red;   
+        box-shadow: 0px 0px 20px 10px #ff0000;   
     }
 
     &__shadow--purple {
-        box-shadow: 0px 0px 20px 10px purple;   
+        box-shadow: 0px 0px 20px 10px #800080;   
     }
 }
 
@@ -108,7 +108,7 @@ body {
     
     /* button skins */
     &--dark {
-        background-color: red;
+        background-color: #ff0000;
     }
 
     &--light {
