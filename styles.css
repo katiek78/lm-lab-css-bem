@@ -1,129 +1,137 @@
 html {
-    min-height:100%;
+  min-height: 100%;
 }
 
 body {
-    background-image: linear-gradient(to bottom right, black, midnightblue);  
-    font-family: 'Changa', monospace;    
-    font-size: 1rem;
-    height:100%;
+  background-image: linear-gradient(to bottom right, black, midnightblue);
+  font-family: "Changa", monospace;
+  font-size: 1rem;
+  height: 100%;
 }
 
 .main-heading {
-    color: yellow;
-    text-align: center;    
-    transform-origin: 50% 100%;
-    transform:perspective(175px) rotateX(35deg);   
-}
-
-.main-heading__size {
-    font-size:3rem;
+  color: yellow;
+  text-align: center;
+  transform-origin: 50% 100%;
+  transform: perspective(175px) rotateX(35deg);
+  font-size: 3rem;
 }
 
 .main-subheading {
-    color: yellow;
-    text-align: center;    
-    transform-origin: 50% 100%;
-    transform:perspective(175px) rotateX(35deg);
-    font-size:2rem;
+  color: yellow;
+  text-align: center;
+  transform-origin: 50% 100%;
+  transform: perspective(175px) rotateX(35deg);
+  font-size: 2rem;
 }
 
 .main-subheading__display {
-    display:none;
+  display: none;
 }
 
-
 .container {
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /* card structure */
-.card {    
-    border-radius: 7px;
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
+.card {
+  border-radius: 7px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
 }
 
 .card__img {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 /* card skins */
 .card--dark {
-    background-color: black;      
-    box-shadow: 3px 6px 3px yellow;
-    border:2px solid yellow;
+  background-color: black;
+  box-shadow: 3px 6px 3px #ffff00;
+  border: 2px solid #ffff00;
 }
 
 .card__header--dark {
-    color: #ffff00;
+  color: #ffff00;
 }
 
 .card__subheader--dark {
-    color: #ffff00;
+  color: #ffff00;
 }
 
 .card__text--dark {
-    color: #ffff00;
+  color: #ffff00;
 }
 
 .card--light {
-    background-color: #EEE;      
-    border:2px solid #191970;
+  background-color: #EEE;
+  border: 2px solid #191970;
 }
 
 .card__header--light {
-    color: #191970;
+  color: #191970;
 }
 
 .card__subheader--light {
-    color: #191970;
+  color: #191970;
 }
 
 .card__text--light {
-    color: #191970;   
+  color: #191970;
 }
 
-.card__shadow--green {  
-    box-shadow: 0px 0px 20px 10px lime;
+.card__shadow--green {
+  box-shadow: 0px 0px 20px 10px lime;
 }
 
 .card__shadow--red {
-    box-shadow: 0px 0px 20px 10px red;   
+  box-shadow: 0px 0px 20px 10px red;
 }
 
 .card__shadow--purple {
-    box-shadow: 0px 0px 20px 10px purple;   
+  box-shadow: 0px 0px 20px 10px purple;
 }
 
 /* button structure */
 .button {
-    color: #EEE;
-    font-size:1rem;
-    border-radius: 15px;
-    padding:10px;
+  color: #EEE;
+  font-size: 1rem;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 /* button skins */
 .button--dark {
-    background-color: red;
+  background-color: red;
 }
 
 .button--light {
-    background-color: #191970;
+  background-color: #191970;
 }
 
 @media only screen and (min-width: 600px) {
-    .main-subheading__display {
-        display:block;
-    }   
+  .main-subheading__display {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .main-heading {
+    color: yellow;
+    text-align: center;
+    transform-origin: 50% 100%;
+    transform: perspective(175px) rotateX(35deg);
+    font-size: 4rem;
+  }
+  .main-subheading {
+    color: yellow;
+    text-align: center;
+    transform-origin: 50% 100%;
+    transform: perspective(175px) rotateX(35deg);
+    font-size: 3rem;
+  }
 }
 
-@media only screen and (min-width: 1000px) {
-    .main-heading__size {
-        font-size:4rem;
-    }
-}
+/*# sourceMappingURL=styles.css.map */
