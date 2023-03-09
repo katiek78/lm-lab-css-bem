@@ -10,7 +10,7 @@ body {
 }
 
 .main-heading {
-  color: yellow;
+  color: #ffff00;
   text-align: center;
   transform-origin: 50% 100%;
   transform: perspective(175px) rotateX(35deg);
@@ -18,7 +18,7 @@ body {
 }
 
 .main-subheading {
-  color: yellow;
+  color: #ffff00;
   text-align: center;
   transform-origin: 50% 100%;
   transform: perspective(175px) rotateX(35deg);
@@ -35,79 +35,65 @@ body {
   flex-wrap: wrap;
 }
 
-/* card structure */
 .card {
+  /* card structure */
   border-radius: 7px;
   padding: 10px;
   margin: 20px;
   text-align: center;
+  /* card skins */
 }
-
 .card__img {
   max-width: 100px;
 }
-
-/* card skins */
 .card--dark {
-  background-color: black;
+  background-color: #000000;
   box-shadow: 3px 6px 3px #ffff00;
   border: 2px solid #ffff00;
 }
-
 .card__header--dark {
   color: #ffff00;
 }
-
 .card__subheader--dark {
   color: #ffff00;
 }
-
 .card__text--dark {
   color: #ffff00;
 }
-
 .card--light {
   background-color: #EEE;
   border: 2px solid #191970;
 }
-
 .card__header--light {
   color: #191970;
 }
-
 .card__subheader--light {
   color: #191970;
 }
-
 .card__text--light {
   color: #191970;
 }
-
 .card__shadow--green {
-  box-shadow: 0px 0px 20px 10px lime;
+  box-shadow: 0px 0px 20px 10px #00ff00;
 }
-
 .card__shadow--red {
-  box-shadow: 0px 0px 20px 10px red;
+  box-shadow: 0px 0px 20px 10px #ff0000;
 }
-
 .card__shadow--purple {
-  box-shadow: 0px 0px 20px 10px purple;
+  box-shadow: 0px 0px 20px 10px #800080;
 }
 
-/* button structure */
 .button {
+  /* button structure */
   color: #EEE;
   font-size: 1rem;
   border-radius: 15px;
   padding: 10px;
+  /* button skins */
 }
-
-/* button skins */
 .button--dark {
-  background-color: red;
+  background-color: #ff0000;
 }
-
 .button--light {
   background-color: #191970;
 }
@@ -119,14 +105,14 @@ body {
 }
 @media only screen and (min-width: 1000px) {
   .main-heading {
-    color: yellow;
+    color: #ffff00;
     text-align: center;
     transform-origin: 50% 100%;
     transform: perspective(175px) rotateX(35deg);
-    font-size: 4rem;
+    font-size: 7rem;
   }
   .main-subheading {
-    color: yellow;
+    color: #ffff00;
     text-align: center;
     transform-origin: 50% 100%;
     transform: perspective(175px) rotateX(35deg);
